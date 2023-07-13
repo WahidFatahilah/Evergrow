@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
 
-                    Greeting()
+                    MainScreen()
                 }
             }
         }
@@ -43,7 +43,7 @@ class MainActivity : ComponentActivity() {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun Greeting() {
+fun MainScreen() {
     val gson = Gson()
     val plant = "paddy"
 
