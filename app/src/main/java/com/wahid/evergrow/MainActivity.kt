@@ -55,7 +55,7 @@ fun MainScreen() {
         val request = Request.Builder()
             .url("https://plantwise.p.rapidapi.com/plant/?plant_type=$plant")
             .get()
-            .addHeader("X-RapidAPI-Key", "32ad085f91mshc8aeecdd45a12b1p148e38jsna2fc8175e8e8")
+            .addHeader("X-RapidAPI-Key", "d6fbb006b4msh0ffe92edb16ca4cp12a3fajsn142c11961eb5")
             .addHeader("X-RapidAPI-Host", "plantwise.p.rapidapi.com")
             .build()
 
