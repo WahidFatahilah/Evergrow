@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun MainScreen() {
     val gson = Gson()
-    val plant = "paddy"
+    val plant = "Testttttttttt"
 
     var plantData by remember { mutableStateOf<PlantData?>(null) }
 
@@ -133,6 +133,4 @@ fun MainScreen() {
     } ?: run {
         Text(text = "Loading")
     }
-
 }
-
